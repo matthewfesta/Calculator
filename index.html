@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calc_style.css" />
+    <script src="./calc_script.js" async></script>
+    <title>Mock iOS Calculator</title>
+</head>
+
+<body>
+    <div class="calculator-container">
+        <div class="result-screen">
+            <h2 class="result-output">0</h2>
+        </div>
+        <div class="calculator-buttons">
+            <div class="row">
+                <button class="button clear" data-action="clear">C</button>
+                <button class="button digit" data-action="backspace">←</button>
+                <button class="button operator" data-action="divide">÷</button>
+            </div>
+            <div class="row">
+                <button class="button digit">7</button>
+                <button class="button digit">8</button>
+                <button class="button digit">9</button>
+                <button class="button operator" data-action="multiply">x</button>
+            </div>
+            <div class="row">
+                <button class="button digit">4</button>
+                <button class="button digit">5</button>
+                <button class="button digit">6</button>
+                <button class="button operator" data-action="subtract">-</button>
+            </div>
+            <div class="row">
+                <button class="button">1</button>
+                <button class="button">2</button>
+                <button class="button">3</button>
+                <button class="button operator" data-action="add">+</button>
+            </div>
+            <div class="row">
+                <button class="button zero">0</button>
+                <button class="button operator" data-action="calculate">=</button>
+            </div>
+        </div>
+
+</body>
+
+</html>
