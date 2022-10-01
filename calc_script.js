@@ -61,7 +61,7 @@ const handleOperator = (button) => {
         // Do arithmetic operations for the other operators
         case '+':
         case '-':
-        case '×':
+        case 'x':
         case '÷':
             handleCalc(button);
             break;
@@ -99,7 +99,7 @@ const flushOperation = (intDisplay) => {
             case '-':
                 runningTotal -= intDisplay;
                 break;
-            case '×':
+            case 'x':
                 runningTotal *= intDisplay;
                 break;
             case '÷':
